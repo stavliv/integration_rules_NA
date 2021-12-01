@@ -150,6 +150,7 @@ def plotError(funcToIntegrate, ruleFunc, integralStart, integralEnd, trueValue, 
     plt.show()
     plt.close()
 
+#below methods work only for the unction given in the assigmnent: e^3x*sin(2x), xΕ[0, π/4]
 
 def riemannsMaxError(h):
     """
